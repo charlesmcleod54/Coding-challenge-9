@@ -74,3 +74,6 @@ const company = new Company("Smith Athletics");
 company.addEmployee(emp1);
 company.addEmployee(mgr1);
 company.listEmployees();
+
+// Task 4: Implementing a Payroll System
+console.log(company.calculateTotalPayroll());
